@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eklavya - Application Submission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Eklavya</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>|</li>
+                <li><a href="#">Documentation</a></li>
+                <li>|</li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button class="logout-button">Logout</button>
+        </div>
+
+    </header>
+
+    <main class="application-form">
+        <h1>Application Submission</h1>
+
+        <section class="personal-information">
+            <h2>Personal Information</h2>
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required>
+            </div>
+            <div class="form-group">
+                <label for="aadhar-no">Aadhar No.</label>
+                <div class="input-with-button">
+                    <input type="text" id="aadhar-no" name="aadhar-no" required>
+                    <button type="button">Verify</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone-number">Phone Number</label>
+                <div class="input-with-button">
+                    <input type="tel" id="phone-number" name="phone-number" required>
+                    <button type="button">Verify</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="date-of-birth">Date of Birth</label>
+                <input type="date" id="date-of-birth" name="date-of-birth">
+            </div>
+        </section>
+
+        <section class="educational-background">
+            <h2>Educational Background</h2>
+            <div class="form-group">
+                <label for="highest-degree">Highest Degree</label>
+                <input type="text" id="highest-degree" name="highest-degree">
+            </div>
+            <div class="form-group">
+                <label for="institution-name">Institution Name</label>
+                <input type="text" id="institution-name" name="institution-name">
+            </div>
+            <div class="form-group">
+                <label for="year-of-completion">Year of Completion</label>
+                <input type="text" id="year-of-completion" name="year-of-completion" placeholder="YYYY">
+            </div>
+        </section>
+
+        <section class="skill">
+            <h2>Skill</h2>
+            <div class="form-group">
+                <label for="skill">Skill</label>
+                <input type="text" id="skill" name="skill" placeholder="e.g., Javascript, Python">
+            </div>
+        </section>
+
+        <section class="upload-credentials">
+            <h2>Upload Credentials</h2>
+            <div class="upload-box">
+                <p>Drag and drop your certificates here or</p>
+                <button type="button" class="choose-file-button">Choose File</button>
+                <input type="file" id="upload-file" name="upload-file" multiple style="display: none;">
+            </div>
+        </section>
+
+        <button type="submit" class="submit-button">Submit Profile</button>
+    </main>
+</body>
+</html>

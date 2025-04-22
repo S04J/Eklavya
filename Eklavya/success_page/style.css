@@ -1,0 +1,81 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #222;
+}
+
+.user-icon {
+    font-size: 1.5em;
+    color: #777;
+}
+
+.registration-success {
+    text-align: center;
+}
+
+.notification-icon {
+    font-size: 4em;
+    color: #007bff; /* Or a color that matches the bell's appearance */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.view-profile-button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.view-profile-button:hover {
+    background-color: #555;
+}
+.home{
+    font-size: 32px;
+}
+/* You might want to add specific styling to mimic the bell icon's appearance more closely
+   using background images or more complex CSS if needed. The unicode bell character
+   is a simple representation. */
